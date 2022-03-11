@@ -5,7 +5,7 @@ const {newCompra,getAllCompras, getCompra,deleteCompra} = require('../controller
 router.route('/')
       .get((req,res) => {
             res.json(
-            {message: 'Bep, Bop! I am an API developed by Jaime Sierra, Victor Mendoza, Amstrong Monachello'})})
+            {message: 'Bep, Bop! I am an API developed by Jaime Sierra'})})
 
 //CREATE
 router.route('/newCompra/')

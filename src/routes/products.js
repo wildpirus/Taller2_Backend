@@ -5,7 +5,7 @@ const {newProduct,getAllProducts, getProduct, updateProduct,deleteUser} = requir
 router.route('/')
       .get((req,res) => {
             res.json(
-            {message: 'Bep, Bop! I am an API developed by Jaime Sierra, Victor Mendoza, Amstrong Monachello'})})
+            {message: 'Bep, Bop! I am an API developed by Jaime Sierra'})})
 
 
 //CREATE
