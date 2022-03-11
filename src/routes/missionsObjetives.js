@@ -9,7 +9,7 @@ const {
 } = require("../controllers/missions_objetives_routes.controller");
 
 router.route("/").get((req, res) => {
-  res.json({ message: "Bep, Bop! I am an API developed by Jaime Sierra" });
+  res.json({ message: "Bep, Bop! I am an API developed by Jaime Sierra, Victor Mendoza, Amstrong Monachello" });
 });
 
 //CREATE

@@ -5,7 +5,7 @@ const {createUser,getAllUsers, getUser, updateUser,deleteUser} = require('../con
 router.route('/')
       .get((req,res) => {
             res.json(
-            {message: 'Bep, Bop! I am an API developed by Jaime Sierra'})})
+            {message: 'Bep, Bop! I am an API developed by Jaime Sierra, Victor Mendoza, Amstrong Monachello'})})
 
 //CREATE
 router.route('/newUser/')
